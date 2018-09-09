@@ -107,7 +107,7 @@ export const items = [
 	},
 	{
 		route: '/query/service',
-		title: 'Service: query multi enpoints !',
+		title: 'Service: query multiple endpoints !',
 		body: <C.SparqlService />,
 	},
 	{

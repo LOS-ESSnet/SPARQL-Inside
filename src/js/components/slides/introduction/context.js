@@ -2,9 +2,9 @@ import React from 'react';
 
 export default () => (
 	<div className="centered slide-text">
-		<div>RDF data are storing in " Triple Store "</div>
+		<div>RDF data is stored in " Triple Store "</div>
 		<br />
-		<div>Triple Stores are divided in " Repositories "</div>
+		<div>Triple Stores are organized in " Repositories "</div>
 		<br />
 		<div>Repositories contains RDF data grouped by " graph "</div>
 		<br />
