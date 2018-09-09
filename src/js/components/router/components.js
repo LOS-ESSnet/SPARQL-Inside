@@ -21,12 +21,13 @@ export { default as SparqlGraph } from 'js/components/slides/queries/graph';
 export {
 	default as SparqlPrefixes,
 } from 'js/components/slides/queries/prefixes';
-export { default as SparqlJoin } from 'js/components/slides/queries/join';
+export { default as SparqlCombine } from 'js/components/slides/queries/combine';
 export { default as SparqlBind } from 'js/components/slides/queries/bind';
 export {
 	default as SparqlPropertyPath,
 } from 'js/components/slides/queries/property-path';
 export { default as SparqlFilter } from 'js/components/slides/queries/filter';
+export { default as SparqlValues } from 'js/components/slides/queries/values';
 export {
 	default as SparqlOptional,
 } from 'js/components/slides/queries/optional';

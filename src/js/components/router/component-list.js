@@ -31,7 +31,7 @@ export const items = [
 		type: 'SubHeader',
 	},
 	{
-		route: '/intro/sparl-verbs',
+		route: '/sparl-verbs',
 		title: 'SPARQL verbs',
 		body: <C.SparqlVerbs />,
 	},
@@ -47,12 +47,12 @@ export const items = [
 	},
 	{
 		route: '/query/select-simple',
-		title: 'Select : My first query',
+		title: 'Select: my first query',
 		body: <C.SparqlSimple />,
 	},
 	{
 		route: '/query/graph',
-		title: 'Precise graph',
+		title: 'Specify graph',
 		body: <C.SparqlGraph />,
 	},
 	{
@@ -61,9 +61,9 @@ export const items = [
 		body: <C.SparqlPrefixes />,
 	},
 	{
-		route: '/query/join',
-		title: 'Join triples',
-		body: <C.SparqlJoin />,
+		route: '/query/combine',
+		title: 'Combine triples',
+		body: <C.SparqlCombine />,
 	},
 	{
 		route: '/query/bind',
@@ -74,6 +74,11 @@ export const items = [
 		route: '/query/filter',
 		title: 'Filter',
 		body: <C.SparqlFilter />,
+	},
+	{
+		route: '/query/values',
+		title: 'Values',
+		body: <C.SparqlValues />,
 	},
 	{
 		route: '/query/property-path',

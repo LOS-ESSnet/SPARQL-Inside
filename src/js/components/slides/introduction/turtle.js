@@ -5,7 +5,7 @@ export default () => (
 	<div className="centered slide-text">
 		<div>Textual representation of RDF data</div>
 		<br />
-		<div>Grammar containing triples :</div>
+		<div>Grammar based on triples:</div>
 		<br />
 		<Highlight language="sql">{`subject predicat1 object1 .
 subject predicat2 object2  `}</Highlight>

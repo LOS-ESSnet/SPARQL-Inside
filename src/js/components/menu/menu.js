@@ -29,7 +29,7 @@ class AppMenu extends Component {
 		return (
 			<div>
 				<AppBar
-					title={<span style={{ color: '#FFFFFF' }}>Sparql Inside</span>}
+					title={<span style={{ color: '#FFFFFF' }}>SPARQL Inside</span>}
 					iconClassNameRight="muidocs-icon-navigation-expand-more"
 					onLeftIconButtonClick={this.handleToggle}
 					style={{ backgroundColor: '#ee3467' }}

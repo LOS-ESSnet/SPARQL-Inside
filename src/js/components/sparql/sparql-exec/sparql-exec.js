@@ -58,7 +58,7 @@ class SparqlExec extends Component {
 						query={query}
 						handleChangeEndPoint={this.handleChangeEndPoint}
 						handleChangeQuery={this.handleChangeQuery}
-						closeModal={this.props.closeModal}
+						closeModal={closeModal}
 						execute={this.execute}
 						reset={this.reset}
 					/>
