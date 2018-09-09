@@ -44,7 +44,6 @@ export default () => (
 import React from 'react';
 import { sparqlConnect } from 'sparql-connect';
 import DepDiplay from './dep-display';
-import Spinner from 'js/components/shared/spinner';
 
 const queryBuilder = () => \`
 PREFIX qb: <http://purl.org/linked-data/cube#>
@@ -71,14 +70,14 @@ const connector = sparqlConnect(queryBuilder, {
 });
 
 const ContainerDepartements = ({ departementPopulation }) => (
-	<Viz data={departementPopulation} />
+	<DepDiplay data={departementPopulation} />
 );
 
 export default connector(ContainerDepartements, {
-	loading: () => <Spinner text={'Loading ...'} />,
+	loading: () => <div>Loading ...</div>,
 });
 
-// Define the container which will wrap the display component
+// Define the display component
 
 import React from 'react';
 
