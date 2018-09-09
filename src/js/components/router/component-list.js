@@ -117,6 +117,21 @@ export const items = [
 		type: 'SubHeader',
 	},
 	{
+		route: '/protocol/sparql',
+		title: 'SPARQL Protocol',
+		body: <C.Protocol />,
+	},
+	{
+		route: '/protocol/sparql-query',
+		title: 'SPARQL query',
+		body: <C.ProtocolQuery />,
+	},
+	{
+		route: '/protocol/sparql-query/get',
+		title: 'SPARQL query: GET',
+		body: <C.ProtocolQueryGet />,
+	},
+	{
 		route: '/demo',
 		title: 'Demo apps',
 		body: <C.Summary />,

@@ -10,6 +10,7 @@ export { default as Turtle } from 'js/components/slides/introduction/turtle';
 export {
 	default as SparqlVerbs,
 } from 'js/components/slides/introduction/sparql-verbs';
+// Queries
 export {
 	default as SparqlDescribe,
 } from 'js/components/slides/queries/describe';
@@ -37,6 +38,15 @@ export {
 	default as SparqlSubQueries,
 } from 'js/components/slides/queries/sub-queries';
 export { default as SparqlService } from 'js/components/slides/queries/service';
+// Protocol
+export { default as Protocol } from 'js/components/slides/protocol/sparql';
+export {
+	default as ProtocolQuery,
+} from 'js/components/slides/protocol/sparql-query';
+export {
+	default as ProtocolQueryGet,
+} from 'js/components/slides/protocol/sparql-query-get';
+// Demo
 export { default as DemoReact } from 'js/components/slides/demo/react-js';
 export { default as DemoShiny } from 'js/components/slides/demo/R-shiny';
 export { default as DemoDash } from 'js/components/slides/demo/python-dash';
