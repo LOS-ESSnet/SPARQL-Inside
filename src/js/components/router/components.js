@@ -32,3 +32,8 @@ export { default as SparqlValues } from 'js/components/slides/queries/values';
 export {
 	default as SparqlOptional,
 } from 'js/components/slides/queries/optional';
+export { default as SparqlSum } from 'js/components/slides/queries/sum';
+export {
+	default as SparqlSubQueries,
+} from 'js/components/slides/queries/sub-queries';
+export { default as SparqlService } from 'js/components/slides/queries/service';

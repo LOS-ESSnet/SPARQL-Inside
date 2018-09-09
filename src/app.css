@@ -47,4 +47,6 @@ ul {
 .query-text {
 	font-size: 250%;
 	padding: 5px;
+	width: 110%;
+	margin-left: -5%;
 }

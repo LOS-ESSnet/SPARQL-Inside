@@ -96,6 +96,21 @@ export const items = [
 		body: <C.SparqlOptional />,
 	},
 	{
+		route: '/query/sum',
+		title: 'Sum',
+		body: <C.SparqlSum />,
+	},
+	{
+		route: '/query/sub-queries',
+		title: 'Sub-queries',
+		body: <C.SparqlSubQueries />,
+	},
+	{
+		route: '/query/service',
+		title: 'Service: query multi enpoints !',
+		body: <C.SparqlService />,
+	},
+	{
 		route: '/protocol',
 		title: 'Protocol',
 		body: <C.Summary />,
