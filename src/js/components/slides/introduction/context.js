@@ -8,6 +8,8 @@ export default () => (
 		<br />
 		<div>Repositories contains RDF data grouped by " graph "</div>
 		<br />
+		<div>Data of a repository is accessible via an " endpoint "</div>
+		<br />
 		<div>
 			<a
 				href="http://graphdb.linked-open-statistics.org"
@@ -16,6 +18,7 @@ export default () => (
 			>
 				LOS triple store
 			</a>
+			{` (endpoint : http://graphdb.linked-open-statistics.org/repositories/{repo})`}
 		</div>
 	</div>
 );
