@@ -130,7 +130,7 @@ export default (data) => (
 				</a>
 				:
 			</h2>
-			<SparqlViewer text={query} language="language-jsx" />
+			<SparqlViewer text={query} language="language-jsx" noTry={true} />
 		</React.Fragment>
 	);
 };
