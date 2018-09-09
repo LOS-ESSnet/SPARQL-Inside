@@ -23,6 +23,7 @@ export {
 } from 'js/components/slides/queries/prefixes';
 export { default as SparqlCombine } from 'js/components/slides/queries/combine';
 export { default as SparqlBind } from 'js/components/slides/queries/bind';
+export { default as SparqlBindIf } from 'js/components/slides/queries/bind-if';
 export {
 	default as SparqlPropertyPath,
 } from 'js/components/slides/queries/property-path';

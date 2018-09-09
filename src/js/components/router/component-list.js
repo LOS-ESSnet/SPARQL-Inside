@@ -71,6 +71,11 @@ export const items = [
 		body: <C.SparqlBind />,
 	},
 	{
+		route: '/query/bind-if',
+		title: 'Bind if',
+		body: <C.SparqlBindIf />,
+	},
+	{
 		route: '/query/filter',
 		title: 'Filter',
 		body: <C.SparqlFilter />,
