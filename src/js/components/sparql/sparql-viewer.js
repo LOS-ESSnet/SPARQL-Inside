@@ -11,12 +11,14 @@ class SparqlViewer extends Component {
 		this.closeModal = () => this.setState({ modal: false });
 	}
 	render() {
-		const { text, noTry } = this.props;
+		const { text, noTry, language } = this.props;
 		const { modal } = this.state;
 		return (
 			<React.Fragment>
 				<div className="query-text">
-					<Highlight language="sql">{text}</Highlight>
+					<Highlight language={`${language ? language : 'sql'}`}>
+						{text}
+					</Highlight>
 				</div>
 				{!noTry && (
 					<div className="centered">

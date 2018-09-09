@@ -116,4 +116,30 @@ export const items = [
 		body: <C.Summary />,
 		type: 'SubHeader',
 	},
+	{
+		route: '/demo',
+		title: 'Demo apps',
+		body: <C.Summary />,
+		type: 'SubHeader',
+	},
+	{
+		route: '/demo/react-js',
+		title: 'React-JS',
+		body: <C.DemoReact />,
+	},
+	{
+		route: '/demo/R-shiny',
+		title: 'R - Shiny',
+		body: <C.DemoShiny />,
+	},
+	{
+		route: '/demo/python-dash',
+		title: 'Python - Dash',
+		body: <C.DemoDash />,
+	},
+	{
+		route: '/demo/python-jupyter',
+		title: 'Python - Jupyter',
+		body: <C.DemoJupyter />,
+	},
 ];

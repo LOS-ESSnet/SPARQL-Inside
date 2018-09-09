@@ -37,3 +37,9 @@ export {
 	default as SparqlSubQueries,
 } from 'js/components/slides/queries/sub-queries';
 export { default as SparqlService } from 'js/components/slides/queries/service';
+export { default as DemoReact } from 'js/components/slides/demo/react-js';
+export { default as DemoShiny } from 'js/components/slides/demo/R-shiny';
+export { default as DemoDash } from 'js/components/slides/demo/python-dash';
+export {
+	default as DemoJupyter,
+} from 'js/components/slides/demo/python-jupyter';
