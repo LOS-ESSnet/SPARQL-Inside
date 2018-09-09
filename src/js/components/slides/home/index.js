@@ -4,7 +4,7 @@ import sparqlImg from 'img/sparql.png';
 
 export default () => (
 	<div className="centered">
-		<Link to="/summary">
+		<Link to="/intro">
 			<img src={sparqlImg} alt="RDF" className="img-full" />
 		</Link>
 	</div>
