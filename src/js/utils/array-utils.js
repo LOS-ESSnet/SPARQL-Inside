@@ -2,7 +2,7 @@ export const buildSparqlResponse = res => {
 	if ('boolean' in res) return [{ boolean: res.boolean ? 'true' : 'false' }];
 	return res.results.bindings.map(r =>
 		Object.entries(r).reduce((_, e) => {
-			_[e[0]] = e[1].value;
+			_[e[0].toLowerCase()] = e[1].value;
 			return _;
 		}, {})
 	);

@@ -7,7 +7,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT ?s ?notation
 	WHERE {
   		?s ?p ?o .
-		OPTIONAL{ ?s skos:notation ?notation }
+		OPTIONAL { ?s skos:notation ?notation }
 }
 LIMIT 1000
 `;
