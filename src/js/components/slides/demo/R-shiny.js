@@ -27,5 +27,14 @@ export default () => (
 				</h1>
 			</div>
 		</div>
+		<h1 className="centered">
+			<a
+				href="http://www.linked-open-statistics.org/plosh/r-intro/r-consume.html"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				How it works?
+			</a>
+		</h1>
 	</React.Fragment>
 );
