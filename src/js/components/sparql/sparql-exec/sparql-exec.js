@@ -3,6 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import { Request, Response } from './';
 import { get } from 'js/utils/custom-fetch';
 import { customQuery } from 'js/utils/prefixes';
+import { ENDPOINT_POP5 } from 'js/config';
 
 const customContentStyle = {
 	width: '90%',
@@ -14,8 +15,7 @@ class SparqlExec extends Component {
 		super();
 		this.state = {
 			exec: false,
-			endPoint: 'http://graphdb.linked-open-statistics.org/repositories/pop5',
-			//'http://id.insee.fr/sparql',
+			endPoint: ENDPOINT_POP5,
 			query: customQuery(props.query) || '',
 			response: '',
 			isLoading: false,
